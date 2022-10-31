@@ -13,6 +13,7 @@ header {
     top:0;
 }
 
+
 .nav_links:visited {
     color: inherit;
   }
@@ -39,7 +40,7 @@ header {
     align-items: center;
 }
 
-.card, .card_big{
+.card{
     flex-basis: 450px;
 }
 
@@ -51,21 +52,19 @@ header {
 }
 
 .gallery img{
-    border: 10px solid #50C7C7;
-    margin: 10px 10px 10px 10px;
     width: 300px;
 }
 
 @keyframes logo_animate{
     0% {width: 50px; opacity: 0;}
-    100% {width: 425px; opacity: 1;}
+    100% {width: 400px; opacity: 1;}
 }
 
 #logo {
-    animation: logo_animate 5s none;
+    animation: logo_animate 3s none;
 }
 
-@media screen and (min-width: 850px){
+@media screen and (min-width: 700px){
     header{
         display: flex;
         flex-direction: row;
@@ -116,7 +115,7 @@ header {
         position: relative;
         display: flex;
         border: 2px solid #45ADAD;
-        width: 250px;
+        width: 300px;
     }
     .card{
         position: absolute;
